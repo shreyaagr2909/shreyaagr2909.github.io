@@ -3,19 +3,28 @@
         <title>Shreya's Portal</title>
         <link rel = "stylesheet" type = "text/css" href = "style_index.css">
     </head>
-    <body>
+    <body onload="myfunction()">
+
+        <div id = "loading"><h1>Loading</h1></div>
+
         <center>
-        <img src="picture.jpg" width="50%" alt="banner">
-        <h1>Shreya Agarwal's Portal</h1>
-        <h2>About me</h2>
+        <img src="images\picture.jpg" width="50%" alt="banner">
+        <h2>Shreya Agarwal's Portal</h1>
+        <h3>About me</h2>
         <p>I am currently a 3rd year B.tech student at BML Munjal University</p>
         <p>I am a freelancer Website developer</p>
         <h2>Credentials and Portfolio</h2>
         <p><a href="resume.html">My Resume</a> | <a href="https://github.com/shreyaagr2909">My Github</a></p>
         <h2>Contact</h2>
         <p><a href = "mailto:shreya.agarwal.17csc@bml.edu.in">Email : shreya.agarwal.17csc@bml.edu.in</a></p>
+
+        <script>
+            var preloader = document.getElementById('loading');
+            function myfunction(){
+                preloader.style.display = 'none';
+            }
+        </script>
     </body>
-    </center>
     <footer>
         <center>
         <hr>
