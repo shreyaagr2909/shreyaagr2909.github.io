@@ -48,3 +48,25 @@ h2{
   margin-bottom: 2.5rem;
   color: #075aab;
 }
+
+
+::-webkit-scrollbar{
+  width: 12px;
+  height: 100px;
+}
+
+::-webkit-scrollbar-thumb{
+
+  height: 30%;
+  /* background:linear-gradient(transparent, #30ff00); */
+  background: linear-gradient(to top, #ff008c, #ffee00);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  /* background: linear-gradient(transparent , #00c6ff); */
+  position: absolute;
+  width: 10px;
+  height: 30%;
+  background: linear-gradient(to top, #008aff, #a6ff00);
+}
